@@ -1674,5 +1674,17 @@
     "npm": "dsh-streamfold",
     "category": "ui",
     "subcategory": "chat"
+  },
+  {
+    "id": "dsh-connect-minimaxcode",
+    "name": "MiniMax Code 模型接入",
+    "nameEn": "MiniMax Code Model Connect",
+    "author": "JeffTsuiCUG",
+    "description": "把本机已登录的 MiniMax Code 桌面 App（国内版）的模型接入 DSH：复用该 App 写入本机的登录态，不需要 API Key。上游是标准 Anthropic Messages 协议，因此直接复用 DSH 自带的 provider，工具调用、推理块与上下文压缩由 DSH 托管。模型目录从上游接口实时拉取，模型增减不需要更新插件。对话框底部的胶囊与插件页面显示积分余额、本机 token 消耗折算的等效金额，以及 7 天内与 30 天内到期的积分批次。非官方插件，与 MiniMax、DeepSeek 均无关联；依赖 MiniMax 客户端的非公开接口，客户端更新后接口可能变更导致失效；仅供学习与研究使用。",
+    "descriptionEn": "Brings the models of the locally installed MiniMax Code desktop app (China region) into DSH: it reuses the login state that app wrote on this machine, so no API key is needed. The upstream speaks the standard Anthropic Messages protocol, so the plugin reuses DSH's own provider and lets DSH host tool calls, reasoning blocks and context compaction. The model catalog is pulled live from the upstream endpoint, so models can be added or removed upstream without a plugin update. The composer-dock capsule and the plugin page show the account's credit balance, the token usage of this machine converted to an estimated amount, and the credit batches expiring within 7 and 30 days. Unofficial plugin, not affiliated with MiniMax or DeepSeek; it depends on the MiniMax desktop client's non-public interfaces, which a client update may change and break. For learning and research only.",
+    "repo": "https://github.com/JeffTsuiCUG/dsh-connect-minimaxcode",
+    "npm": "dsh-connect-minimaxcode",
+    "category": "integration",
+    "subcategory": "external-ai"
   }
 ]
