@@ -1662,7 +1662,7 @@
     "category": "tools",
     "subcategory": "dev"
   },
-    {
+  {
     "id": "dsh-delete-archived",
     "name": "删除已归档对话",
     "nameEn": "Delete Archived Conversations",
