@@ -1662,13 +1662,13 @@
     "category": "tools",
     "subcategory": "dev"
   },
-  {
+    {
     "id": "dsh-delete-archived",
     "name": "删除已归档对话",
     "nameEn": "Delete Archived Conversations",
     "author": "Joey-K-tsubame",
-    "description": "为已归档会话增加「删除对话」入口，并提供 delete_archived_conversation 工具；与 dsh-archived-chats 的清单 / 删除能力重叠，本插件的增量是这两个入口。",
-    "descriptionEn": "Adds a delete entry to archived conversations in the sidebar plus a delete_archived_conversation tool; overlaps dsh-archived-chats on listing / removal — the increment here is those two entry points."
+    "description": "为已归档会话在侧边栏增加「删除对话」入口，并提供模型可调用的 delete_archived_conversation 工具：该工具无二次确认即可执行、删除不可恢复。清单与删除能力与 dsh-archived-chats 重叠，增量就是这两个入口；与 dsh-delete-session 的区别是本插件只处理已归档会话，侧边栏走两步确认，而工具调用没有确认。",
+    "descriptionEn": "Adds a sidebar delete entry for archived conversations plus the model-callable delete_archived_conversation tool, which runs without a second confirmation and is irreversible. Listing and removal overlap dsh-archived-chats - the increment is those two entry points; unlike dsh-delete-session it only touches archived sessions, with a two-step confirm in the sidebar and no confirmation for the tool call.",
     "repo": "https://github.com/Joey-K-tsubame/dsh-delete-archived",
     "category": "utility",
     "subcategory": "cleanup"
