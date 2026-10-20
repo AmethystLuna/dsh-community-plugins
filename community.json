@@ -1672,6 +1672,8 @@
     "repo": "https://github.com/Joey-K-tsubame/dsh-delete-archived",
     "category": "utility",
     "subcategory": "cleanup"
+  },
+  {
     "id": "dsh-vitals",
     "name": "硬件监视",
     "nameEn": "Vitals",
